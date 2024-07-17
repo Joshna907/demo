@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.user-info,
+.banner-container,
+.product-list,
+.coupon-banner {
+  margin: -5px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.user-info {
+  background-color: yellow;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+menu
+.user-info .buying-for {
+  text-align: right;
+}
+
+.user-info .user {
+  display: flex;
+  align-items: center;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #yellow;
+}
+
+main {
+  padding: 20px;
+}
+
+.user-info .user img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.banner-container {
+  background-color: white; /* OR any other solid color you prefer */
+  border-radius: 40%;
+  height: 100px;
+  top: 90px;
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  justify-content: space-between; /* Add space between elements */
+}
+
+.banner-container p {
+  margin-right: 300px; /* Increased margin-right for more space */
+  font-size: 24px;
+  background: linear-gradient(to right, #0056b3, #4682b4); /* Dark blue to light blue */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: bold; /* Make the text bold */
+}
+
+.banner-image {
+  margin-right: auto; /* Push the image to the left */
+}
+
+.banner-image img {
+  width: 100px;
+  object-fit: contain;
+}
+.product-list {
+  padding: 20px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  background-image: url("blurred-background.png"); 
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+.buying-for {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.user-info .buying-for {
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 3%;
+  padding: 10px;
+  position: absolute;
+ 
+}
+
+.buying-for li {
+  display: inline-block;
+  margin-right: 15px;
+  background-color: transparent;
+}/* ... your existing CSS ... */
+
+
+
+.buying-for li a {
+  text-decoration: none;
+  color: #white; /* Default link color */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.buying-for li a:hover {
+  background-color: #f0f0f0; 
+  color: #000;
+}
+
+
+.product-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.product-info p {
+  margin: 5px 0;
+}
+
+.discount {
+  text-decoration: line-through;
+  color: red;
+}
+
+.size-options button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.size-options .selected {
+  background-color: #fdd835;
+  color: white;
+  border: none;
+}
+
+.coupon-banner {
+  background-color: lightgray;
+  text-align: center;
+}
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control button {
+  background-color: #90ee90; 
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity-control button:hover {
+  background-color: #006400; 
+}
+
+.quantity-control input.quantity {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
